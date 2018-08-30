@@ -1,0 +1,58 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Req
+1,Unpolarized capacitor,C,C1 C2 C4 C9 C12 C14 C16 C17 C18 C19 C20 C21 C22 C23 C24 C25 C26 C27 C28 C29 C42 C44 C46 C47 C48 C49 C50 C51 C52 C60,100n,C_0603,30,50V/X7R/10%
+2,,Csmall,C8,100n,C_0603,1,50V/X7R/10%
+3,Polarised capacitor,CP_Small,C30 C31 C53 C59,100u,c_elec_6.3x7.7,4,35V/20%
+4,Unpolarized capacitor,C,C3,10u,C_0603,1,"6,3V/X5R/20%"
+5,Polarised capacitor,CP_Small,C43,10u,C_0603,1,"6,3V/X5R/20%"
+6,Unpolarized capacitor,C_Small,C34 C35 C36 C37 C38 C39 C40 C41 C55 C56 C57 C58,1n,C_0603,12,50V/X7R/10%
+7,Unpolarized capacitor,C,C6 C10 C32 C33 C54,1u,C_0603,5,"6,3V/X5R/10%"
+8,Unpolarized capacitor,C_Small,C13 C15 C45,22n,C_0603,3,50V/X7R/10%
+9,,Csmall,C7 C11,22p,C_0603,2,50V/C0G/10%
+10,"Diode, alternativ symbol",D_ALT,D6 D7,BAS16HT1G,SOD-323,2,
+11,"LED, small symbol, alternativ symbol",LED_Small_ALT,D14 D16 D18 D20 D22,KPA-3010MGC,LED-1104,5,
+12,"LED, small symbol, alternativ symbol",LED_Small_ALT,D15 D17 D19 D21 D23,KPA-3010SECK,LED-1104,5,
+13,"LED generic, alternativ symbol",LED_ALT,D8,RX,LED_0805,1,
+14,"Diode, alternativ symbol",D_ALT,D1,SK310SMA-DIO,SMA_Standard,1,
+15,"LED generic, alternativ symbol",LED_ALT,D9,TX,LED_0805,1,
+16,"resettable fuse, polymeric positive temperature coefficient (PPTC), small symbol",Polyfuse_Small,F1,150mA,R_1812,1,
+17,"resettable fuse, polymeric positive temperature coefficient (PPTC), small symbol",Polyfuse_Small,F2,750mA,R_1812,1,
+18,,USB-micro,J1,MX-105017-0001,USB-micro,1,
+19,"Inductor with ferrite core, small symbol",L_Core_Ferrite_Small,L1 L2 L3 L5 L6 L7 L8 L9 L10 L11 L12 L13 L14 L15 L16 L17 L18 L19 L20 L21 L22,FB BLM18KG121TN1D,R_0603,21,
+20,,CONN_3X2,P5,ICSP,Pin_Header_Straight_2x03,1,
+21,"Connector, single row, 01x03",CONN_01X03,P4,MOLEX 70543-0002,Pin_1x03-XL,1,
+22,"Connector, single row, 01x04",CONN_01X04,P8 P9 P10,MOLEX 70543-0003,Pin_1x04-XL,3,
+23,"Connector, double row, 02x02",CONN_02X02,P2,MOLEX 70543-0003,Pin_1x04-XL,1,
+24,"Connector, single row, 01x06",CONN_01X06,P7,MOLEX 70543-0004,Pin_1x06-XL,1,
+25,"Connector, single row, 01x05",CONN_01X05,P1,MOLEX 70543-0004 ,Pin_1x05-XL,1,
+26,"Connector, single row, 01x05",CONN_01X05,P6,ShiftOut,Pin_1x05-XL,1,
+27,Resistor,R,R41 R42 R43 R44,0R,R_0603,4,"0,1W/5%"
+28,Resistor,R,R12,100R,R_0603,1,"0,1W/1%"
+29,Resistor,R,R32 R33 R37,10R,R_0603,3,"0,1W/1%"
+30,Resistor,R,R13 R15 R16 R21 R26 R27 R34,10k,R_0603,7,"0,1W/1%"
+31,Resistor,R,R38,15k,R_0603,1,"0,1W/1%"
+32,Resistor,R,R18,1M,R_0603,1,"0,1W/1%"
+33,Resistor,R,R17 R23 R24,1k,R_0603,3,"0,1W/1%"
+34,Resistor,R,R39 R40,1k5,R_0603,2,"0,1W/1%"
+35,Resistor,R,R1 R2 R4 R5,22R,R_0603,4,"0,1W/1%"
+36,Resistor,R,R6 R7 R8 R9 R10 R11 R22 R25 R45 R46,330R,R_0603,10,"0,1W/1%"
+37,Resistor,R,R28 R29 R30 R31 R35 R36,R22,R_1206,6,"0,5W/1%"
+38,,TACT-SW2,S4,DWN,TACT-90,1,
+39,,TACT-SW2,S2,OK,TACT-90,1,
+40,,TACT-SW2,S1,RES,TACT-90,1,
+41,,TACT-SW2,S3,UP,TACT-90,1,
+42,,74HC595,U2 U9,74HC595,SOIC-16_3.9x9.9mm_Pitch1.27mm,2,
+43,,ATmega32U4,U4,ATmega32U4,TQFP-44_10x10mm_Pitch0.8mm,1,
+44,,ATmega32U4,U8,ATmega32U4,QFN-44-1EP_7x7mm_Pitch0.5mm,1,
+45,,TCM2130-LA,U5 U6 U7,TMC2130-LA,QFN-36-1EP_5x6mm_Pitch0.5mm-GNDpad-0.3mm,3,
+46,"Four pin crystal (GND on pins 2 and 4), e.g. in SMD package",Crystal_GND24,Y1,LFXTAL035264BULK 16MHz,Crystal-3.2x2.5mm,1,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Component Groups:,46,,,,,,
+Component Count:,161,,,,,,
+Fitted Components:,161,,,,,,
+Number of PCBs:,1,,,,,,
+Total components:,161,,,,,,
+Schematic Version:,0.3,,,,,,
